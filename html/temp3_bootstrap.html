@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/temp3_bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="setting"><i class="fa-solid fa-gear"></i></div>
+
+    <nav class="navbar align-items-baseline">
+        <div class="container header-con">
+            <i class="fa-solid fa-bars clr fg" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"></i></span>
+            <a style="flex-grow:1"><span class="clr fg1">Pages</span> <span class="fg1">/  Dashboard</span>
+            </a>
+            <form class="d-flex mt-2" role="search">
+                <input class="form-control me-3" type="search" placeholder="Type here..." size="16" aria-label="Search">
+                <i class="fa-solid fa-user clr fg"></i> <span class="space clr fg">Sign&nbsp;In</span>
+                <i class="fa-solid fa-gear clr fg"></i> &nbsp;&nbsp;    <i class="fa-solid fa-bell clr pad fg"></i>
+
+            </form>
+        </div>
+        <p class="small">Dashboard</p>
+    </nav>   
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Admin Panel</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="d-grid gap-2">
+                <button class="btn btn-outline-primary" type="button" onclick="gotoDashboard()">Dashboard</button>
+                <button class="btn btn-outline-primary" type="button" onclick="gotoBilling()">Billing</button>
+              </div>
+        </div>
+      </div>
+    <div>
+        <div class="row">
+            <div class="col-xl-3 col-sm-6 mb-xl-12 mb-4  ">
+                <div class="card bordr rounded-4 bg-dark">
+                    <div class="card-header p-3 pt-2 bg-dark text-white  rounded-top-2 ">
+                        <div
+                            class="position-absolute icon dark rounded-1 bg-gradient-dark shadow-dark bg-dark text-white">
+                            <i class="fa-solid fa-couch coach "></i>
+                        </div>
+                        <div class="text-end pt-1  ">
+                            <p class="text-sm mb-0 text-capitalize clh ">Today's Money</p>
+                            <h3 class="mb-0">$53k</h3>
+                        </div>
+                    </div>
+                    <div class="card-footer p-3  bg-dark text-white border-dark rounded-bottom-2">
+                        <p class="mb-0"><span class="text-success fg1 fw-bold">+55% </span><span class="cl ">than lask
+                                week</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4 border-dark">
+                <div class="card bordr bg-dark">
+                    <div class="card-header p-3 pt-2 bg-dark text-white  rounded-top-2">
+                        <div
+                            class="position-absolute  icon iconp rounded-1 bg-gradient-dark shadow-dark bg-dark text-white">
+                            <i class="fa-solid fa-user "></i>
+                        </div>
+                        <div class="text-end pt-1">
+                            <p class="text-sm mb-0 text-capitalize clh">Today's Users</p>
+                            <h4 class="mb-0">2,300</h4>
+                        </div>
+                    </div>
+                    <div class="card-footer p-3 bg-dark text-white border-dark  rounded-bottom-2">
+                        <p class="mb-0"><span class="text-success fg1 fw-bold">+3% </span><span class="cl">than lask
+                                month</span> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4 border-dark">
+                <div class="card bordr bg-dark">
+                    <div class="card-header p-3 pt-2 bg-dark text-white border-dark rounded-top-2">
+                        <div
+                            class="position-absolute icon icong dark rounded-1 bg-gradient-dark shadow-dark bg-dark text-white">
+                            <i class="fa-solid fa-user "></i>
+                        </div>
+                        <div class="text-end pt-1">
+                            <p class="text-sm mb-0 text-capitalize clh">New Clients</p>
+                            <h4 class="mb-0">3,462</h4>
+                        </div>
+                    </div>
+                    <div class="card-footer p-3 bg-dark text-white border-dark rounded-bottom-2">
+                        <p class="mb-0"><span class="text-danger fg1 fw-bold">-2%</span> <span class="cl">than
+                                yesterday</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-sm-6 border-dark ">
+                <div class="card bordr bg-dark">
+                    <div class="card-header p-3 pt-2  bg-dark text-white border-dark rounded-top-2">
+                        <div
+                            class="position-absolute icon iconb dark rounded-1 bg-gradient-dark shadow-dark bg-dark text-white">
+                            <i class="fa-solid fa-couch coach "></i>
+                        </div>
+                        <div class="text-end pt-1">
+                            <p class="text-sm mb-0 text-capitalize clh">Sales</p>
+                            <h4 class="mb-0">$103,430</h4>
+                        </div>
+                    </div>
+                    <div class="card-footer p-3 bg-dark text-white border-dark rounded-bottom-2">
+                        <p class="mb-0"><span class="text-success text-sm fg1 fw-bold">+5% </span><span
+                                class="cl">than yesterday</span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row1">
+            <div class=" br mt-4 bg-dark shadow-dark border-radius roww sha">
+                <div class="upimage"><img class="iconp rounded-3" src="../images/pinkd.png" /></div>
+
+                <div class="card-body ">
+                    <h6 class="mb-0 ">Website Views</h6>
+                    <p class="text-sm clh">Last Campaign Performance</p>
+                    <hr class="dark horizontal">
+                    <div class="d-flex ">
+                        <i class="fa-regular fa-clock pt-1 clh"></i>
+                        <p class="mb-0 text-sm clh pb-3">&nbsp; campaign sent 2 days ago </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" roww mt-4   br bg-dark shadow-dark border-radius sha">
+                <div class="upimage"><img class="icong rounded-3" src="../images/greengr.png" /></div>
+
+                <div class="card-body ">
+                    <h6 class="mb-0 ">Daily Sales
+                    </h6>
+                    <p class="text-sm clh"> (<span class="fontweight-bolder fw-bolder ">+15%</span>) <span>increase in
+                            today
+                            sales. </p>
+                    <hr class="dark horizontal">
+                    <div class="d-flex ">
+                        <i class="fa-regular fa-clock pt-1 clh"></i>
+                        <p class="mb-0 text-sm clh ">&nbsp; updated 4 min ago </p>
+                    </div>
+                </div>
+            </div>
+            <div class="roww mt-4  br bg-dark shadow-dark border-radius sha">
+                <div class="upimage"><img class="iconbb rounded-3" src="../images/blackgr.png" /></div>
+
+                <div class="card-body">
+                    <h6 class="mb-0 ">Completed Tasks</h6>
+                    <p class="text-sm clh">Last Campaign Performance</p>
+                    <hr class="dark horizontal">
+                    <div class="d-flex ">
+                        <i class="fa-regular fa-clock pt-1 clh"></i>
+                        <p class="mb-0 text-sm clh">&nbsp; campaign sent 2 days ago </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div>
+        <div class="row mb-4">
+            <div class="col-lg-8 col-md-6 mb-md-0 mb-4 text-white ">
+                <div class="card bg-dark text-white">
+                    <div class="card-header1 pb-0">
+                        <div class="row">
+                            <div class="col-lg-6 col-7 mt-3 ">
+                                <h6>Projects</h6>
+                                <p class="text-sm mb-0 pt-2 text-secondary">
+                                    <i class="fa fa-check text-primary" aria-hidden="true"></i>
+                                    <span class="font-weight-bold ms-1 text-secondary fw-bold fg1">30 done</span> <span class="fg ">this month</span>
+                                </p>
+                            </div>
+                            <div class="col-lg-6 col-5 my-auto text-end">
+                                <div class="dropdown float-lg-end pe-4">
+                                    <a class="cursor-pointer" id="dropdownTable" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <i class="fa fa-ellipsis-v text-secondary"></i>
+                                    </a>
+                                    <ul class="dropdown-menu px-2 py-3 ms-sm-n4 ms-n5 bg-dark"
+                                        aria-labelledby="dropdownTable">
+                                        <li><a class="dropdown-item border-radius-md text-secondary bg-dark"
+                                                href="javascript:;">Action</a></li>
+                                        <li><a class="dropdown-item border-radius-md text-secondary bg-dark"
+                                                href="javascript:;">Another action</a></li>
+                                        <li><a class="dropdown-item border-radius-md text-secondary bg-dark"
+                                                href="javascript:;">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <table>
+                                <thead>
+                                    <tr class="gap bordert" style="height:20px">
+                                        <th class="tab_head1 clh gap size">COMPAINES</th>
+                                        <th class="tab_head2 clh gap size">MEMBERS</th>
+                                        <th class="tab_head3 clh gap size">BUDGET</th>
+                                        <th class="tab_head4 clh gap size">COMPLETION</th>
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+                                    <tr class="rowt bordert" style="height:20px">
+                                        <td class="col1">
+                                            <p class=><img class="simage" src="../images/logoxd.svg" /><span
+                                                    class=" fonts fw-bold text-white"> Material XD Version</span>
+                                            </p>
+                                        </td>
+                                        <td class="col2">
+                                            <p><img class="tabimg paimg" src="../images/tabimg1.jpg" /><img
+                                                    class="paimg tabimg" src="../images/tabimg2.jpg" /><img
+                                                    class="tabimg paimg" src="../images/tabimg3.jpg" /><img
+                                                    class="tabimg" src="../images/tabimg4.jpg" /></p>
+                                        </td>
+                                        <td class="col3 fonts fw-bold">$14,000 </td>
+                                        <td>
+                                            <div class="fonts fw-bold">60%</div>
+                                            <div class="progress" style="height: 4px" role="progressbar"
+                                                aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                                                aria-valuemax="100">
+                                                <div class="progress-bar bg-primary " style="width: 60%"></div>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                    <tr class="rowt bordert mt-2" style="height:20px">
+                                        <td class="col1">
+                                            <p class=><img class="simage" src="../images/adtab.svg" /><span
+                                                    class=" fonts fw-bold text-white"> Add Progress Track
+                                                </span>
+                                            </p>
+                                        </td>
+                                        <td class="col2">
+                                            <p><img class="tabimg paimg" src="../images/tabimg1.jpg" /><img
+                                                class="paimg tabimg" src="../images/tabimg2.jpg" /><img
+                                                class="tabimg paimg" src="../images/tabimg3.jpg" /><img
+                                                class="tabimg" src="../images/tabimg4.jpg" /></p>
+                                        </td>
+                                        <td class="col3 fonts fw-bold">$3,000 </td>
+                                        <td>
+                                            <div class="fonts fw-bold">10%</div>
+                                            <div class="progress" style="height: 4px" role="progressbar"
+                                                aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                                                aria-valuemax="100">
+                                                <div class="progress-bar bg-primary " style="width: 10%"></div>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                    <tr class="rowt bordert mt-2" style="height:20px">
+                                        <td class="col1">
+                                            <p class=><img class="simage" src="../images/fixtab.svg" /><span
+                                                    class=" fonts fw-bold text-white">Fix Platform Errors
+
+                                                </span>
+                                            </p>
+                                        </td>
+                                        <td class="col2">
+                                            <p><img class="tabimg paimg" src="../images/tabimg1.jpg" /><img
+                                                class="paimg tabimg" src="../images/tabimg2.jpg" /><img
+                                                class="tabimg paimg" src="../images/tabimg3.jpg" /><img
+                                                class="tabimg" src="../images/tabimg4.jpg" /></p>
+                                        </td>
+                                        <td class="col3 fonts fw-bold">Not set
+                                        </td>
+                                        <td>
+                                            <div class="fonts fw-bold">100%</div>
+                                            <div class="progress" style="height: 4px" role="progressbar"
+                                                aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                                                aria-valuemax="100">
+                                                <div class="progress-bar bg-success " style="width: 100%"></div>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                    <tr class="rowt bordert mt-2" style="height:20px">
+                                        <td class="col1">
+                                            <p class=><img class="simage" src="../images/spotify.svg" /><span
+                                                    class=" fonts fw-bold text-white">Launch our Mobile App
+                                                </span>
+                                            </p>
+                                        </td>
+                                        <td class="col2">
+                                            <p><img class="tabimg paimg" src="../images/tabimg1.jpg" /><img
+                                                class="paimg tabimg" src="../images/tabimg2.jpg" /><img
+                                                class="tabimg paimg" src="../images/tabimg3.jpg" /><img
+                                                class="tabimg" src="../images/tabimg4.jpg" /></p>
+                                        </td>
+                                        <td class="col3 fonts fw-bold">$20,500 </td>
+                                        <td>
+                                            <div class="fonts fw-bold">100%</div>
+                                            <div class="progress" style="height: 4px" role="progressbar"
+                                                aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                                                aria-valuemax="100">
+                                                <div class="progress-bar bg-success " style="width: 100%"></div>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                    <tr class="rowt bordert mt-2" style="height:20px">
+                                        <td class="col1">
+                                            <p class=><img class="simage" src="../images/datab.svg" /><span
+                                                    class=" fonts fw-bold text-white">Add the New Pricing Page
+
+                                                </span>
+                                            </p>
+                                        </td>
+                                        <td class="col2">
+                                            <p><img class="tabimg paimg" src="../images/tabimg1.jpg" /><img
+                                                class="paimg tabimg" src="../images/tabimg2.jpg" /><img
+                                                class="tabimg paimg" src="../images/tabimg3.jpg" /><img
+                                                class="tabimg" src="../images/tabimg4.jpg" /></p>
+                                        </td>
+                                        <td class="col3 fonts fw-bold">$500 </td>
+                                        <td>
+                                            <div class="fonts fw-bold">25%</div>
+                                            <div class="progress" style="height: 4px" role="progressbar"
+                                                aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                                                aria-valuemax="100">
+                                                <div class="progress-bar bg-primary " style="width: 25%"></div>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                    <tr class="rowt pb-5 mt-2" style="height:20px">
+                                        <td class="col1">
+                                            <p class= "pb-3"><img class="simage" src="../images/redl.svg" /><span
+                                                    class=" fonts fw-bold text-white">Redesign New Online Shop
+
+                                                </span>
+                                            </p>
+                                        </td>
+                                        <td class="col2">
+                                            <p><img class="tabimg paimg" src="../images/tabimg1.jpg" /><img
+                                                class="paimg tabimg" src="../images/tabimg2.jpg" /><img
+                                                class="tabimg paimg" src="../images/tabimg3.jpg" /><img
+                                                class="tabimg" src="../images/tabimg4.jpg" /></p>
+                                        </td>
+                                        <td class="col3 fonts fw-bold">$2,000
+                                        </td>
+                                        <td>
+                                            <div class="fonts fw-bold">40%</div>
+                                            <div class="progress" style="height: 4px" role="progressbar"
+                                                aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                                                aria-valuemax="100">
+                                                <div class="progress-bar bg-primary " style="width: 40%"></div>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-6 bg-dark rounded-3 ">
+                <div>
+                    <p class="fs-6 fw-bold text-white pt-3 m-0">Orders overview
+                    </p>
+                    <p class="text-sm">
+                        <i class="fa fa-arrow-up text-success" aria-hidden="true"></i>
+                        <span class="fw-bold clh">24%</span> <span class="clh">this month</span>
+                    </p>
+                </div>
+                <div class="tabc">
+                    <div class="bar"></div>
+                    <div class="order position-relative">
+                        <div class="circle"><i class="fa-solid fa-bell text-success al"></i></div>
+                        <div class="cicon">
+                            <p class="fg1 fw-bold text-white">$2400, Design changes</p>
+                            <p class="cl fw-bold fg">22 DEC 7:20 PM
+                            </p>
+                        </div>
+                        <div class="mt-3">
+
+                            <div class="circle1"><i class="fa-solid fa-code text-danger al1 fg1   "></i></div>
+                            <div class="cicon ">
+
+                                <p class="fg1 fw-bold text-white ics">New order #1832412
+                                </p>
+                                <p class="cl fw-bold fg">21 DEC 11 PM
+
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+
+                            <div class="circle2"><i class="fa-solid fa-cart-shopping text-info al1 fg1   "></i></div>
+                            <div class="cicon ">
+
+                                <p class="fg1 fw-bold text-white ics">Server payments for April
+
+                                </p>
+                                <p class="cl fg fw-bold">21 DEC 9:34 PM
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+
+                            <div class="circle3"><i class="fa-solid fa-credit-card text-warning al1 fg1   "></i></div>
+                            <div class="cicon ">
+                                <p class="fg1 fw-bold text-white ics">New card added for order #4395133
+                                </p>
+                                <p class="cl fg fw-bold">20 DEC 2:20 AM
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+
+                            <div class="circle4"><i class="fa-solid fa-key text-danger al1 fg1   "></i></div>
+                            <div class="cicon ">
+                                <p class="fg1 fw-bold text-white ics">Unlock packages for development
+
+                                </p>
+                                <p class="cl fg fw-bold">18 DEC 4:54 AM
+
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mt-3 pb-3">
+
+                            <div class="circle5"><i class="fa-solid fa-bell text-danger al   "></i></div>
+                            <div class="cicon ">
+                                <p class="fg1 fw-bold text-white ics ">New order #9583120
+
+                                </p>
+                                <p class="cl fg fw-bold">17 DEC
+
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+    <script>
+        function gotoBilling(){
+            window.location.href = './billing.html'
+        }
+        function gotoDashboard(){
+            window.location.href = './temp3_bootstrap.html'
+        }
+    </script>
+
+</body>
+
+</html>

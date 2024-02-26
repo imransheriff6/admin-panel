@@ -1,0 +1,31 @@
+#parent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:5px;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.child{
+    border: 2px solid black;
+    width: 400px;
+    height: 280px;
+}
+.child:nth-child(1){
+
+    background-color:red ;
+}
+.child:nth-child(2){
+    background-color:orange ;
+}
+.child:nth-child(3){
+    background-color: yellow;
+}
+.child:nth-child(4){
+    background-color: green;
+}
+.child:nth-child(5){
+    background-color:greenyellow ;
+}
+.child:nth-child(6){
+    background-color:skyblue ;
+}

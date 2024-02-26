@@ -1,0 +1,353 @@
+#header {
+    display: inline-flex;
+}
+.setting {
+
+    position: fixed;
+    bottom: 52px;
+    right: 42px;
+    background-color:white;
+    font-size: 24px;
+    color: black;
+    height: 56px;
+    width: 56px;
+    padding-left: 15px;
+    padding-top: 11px;
+    border-radius: 50%;
+    z-index: 3;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.16);
+
+
+}
+body {
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.881);
+}
+
+.cl {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.clr {
+    color: #7b809a !important;
+    margin-top: 10px;
+}
+
+.fg {
+    font-size: 12px;
+}
+
+.fg1 {
+    font-size: 14px;
+}
+
+.form-control {
+    background-color: transparent;
+    border: 1px solid #7b809a;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.rel img{
+    width:424px;
+    height: 250px;
+    position: relative;
+    opacity: 0.2;
+    border-radius: 20px;
+
+
+}
+.ab{
+    position:absolute;
+    top:107px;
+    padding-left: 20px;
+}
+
+/* .bh{
+    background-image: url(../images/pattern-tree.svg);
+    border-radius: 19px;
+    opa
+} */
+.pss{
+    padding-left: 53px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.space {
+    padding-right: 20px;
+    margin: 5px;
+    font-weight: 600;
+}
+
+.pad {
+    padding-left: 10px;
+}
+
+.container {
+    margin-left: 30px !important;
+    margin-right: 10px !important;
+    max-width: 1455px;
+
+}
+
+.small {
+    margin-left: 20px;
+
+}
+
+.small {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+
+.dot::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    left: 357px;
+    top: -23px;
+    opacity: .8;
+
+    display: block;
+    background-color: red;
+
+}
+
+.dot::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 191px;
+    left: 388px;
+    opacity: .8;
+
+    display: block;
+    background-color: yellow;
+}
+
+.pink {
+    background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);    padding-left: 27px !important;
+    padding-right: 27px !important;
+    padding-top: 16px !important;
+    padding-bottom: 19px !important;
+    margin-left: 67px;
+    margin-right: 68px;
+    margin-top: 10px;
+    font-size: 24px !important;
+
+
+}
+.dark{   background-image: linear-gradient(195deg, #060b1a, #090f24);}
+
+
+.method{
+    display: grid;
+    grid-template-columns: 72% 28%;
+}
+.half{
+    display: grid;
+    grid-template-columns: 80% 80%;
+}
+.marg {
+    margin-top: 10px;
+}
+
+.sap {
+    margin-right: 10px
+}
+.overall{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-left: 50px;
+}
+.car{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-evenly;
+}
+.pass{
+    padding-left: 107px;
+}
+.pay{
+    margin-left: 30px;
+    margin-right: 10px;
+    
+}
+.buttview{
+    color:#D81B60;
+    background-color: transparent;
+    border:none;
+    font-size: 14px;
+    border-radius: 3px;
+    border:1px solid #D81B60;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 27px;
+}
+.invbutton{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.cd{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    border:1px solid #7b809a;
+    border-radius: 9px;
+
+}
+.month{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    padding-left: 10px;
+}
+.invoi{
+    margin-left: 15px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.car img{
+    width:30px;
+    height:30px
+}
+.dark {
+    background-image: linear-gradient(195deg, #17181c, #1f232f);
+}
+
+
+.three{
+    display: grid;
+    grid-template-columns: 48% 24% 24%;
+    margin-left: 30px;
+    justify-content: space-evenly;
+}
+.card{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.sicon{
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.butopad{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-image: linear-gradient(195deg, #1e1f20, #383d50ac)
+}
+
+.sha {
+    box-shadow: 0 3px 3px 0 rgba(52, 71, 103, 0.15), 0 3px 1px -2px rgba(52, 71, 103, 0.2), 0 1px 5px 0 rgba(52, 71, 103, 0.15);
+}
+.bill{
+    display: grid;
+    grid-template-columns: 58% 35%;
+    justify-content: space-evenly;
+    margin-left: 6px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.bithree{
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    padding-left: 40px;
+    padding-top: 65px;
+
+
+}
+.padb{
+    padding-bottom: 30px;
+}
+.bithree p{
+    margin:0
+}
+.trans{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-right: 30px;
+}
+.netflix{
+    display: grid;
+    grid-template-columns: 18% 60% 20%;
+    margin-top: 30px;
+}
+.rounbn{
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px; */
+    background-color: transparent;
+    border-radius: 80px;
+    width:40px;
+    height: 40px;
+    border:none;
+    border:1px solid red;
+    padding-top: 4px;
+}
+.rounbns{
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px; */
+    background-color: transparent;
+    border-radius: 80px;
+    width:40px;
+    height: 40px;
+    border:none;
+    border:1px solid green;
+    padding-top: 4px;
+}
+ 
+.rounbnd{
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px; */
+    background-color: transparent;
+    border-radius: 80px;
+    width:40px;
+    height: 40px;
+    border:none;
+    border:1px solid #344767;
+    padding-top: 4px;
+}
+.td{
+    color: #344767;
+}
+.netflix p{
+    margin: 0;
+}
+.mgap{
+    margin-top: 10px;
+}
+.fsbol{
+    font-weight: 500;
+}
+.header-con{
+    gap: 10px;
+    /* align-items: center; */
+}
+.header-con .fa-bars{
+    margin-top: 5px;
+}
+.offcanvas{
+    background-color: rgba(var(--bs-dark-rgb)) !important;
+    color: white;
+}

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<!-- saved from url=(0085)https://www.free-css.com/assets/files/free-css-templates/preview/page292/grandcoffee/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Free CSS | Free CSS Templates | Demo of the HTML CSS Template Grandcoffee</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="./cofffmain_files/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./cofffmain_files/plugins.css">
+<link rel="stylesheet" type="text/css" href="./cofffmain_files/style.css">
+<style type="text/css">
+#freecssfooter{display:block;width:100%;padding:120px 0 20px;overflow:hidden;background-color:transparent;z-index:5000;text-align:center;}
+#freecssfooter div#fcssholder div{display:none;}
+#freecssfooter div#fcssholder div:first-child{display:block;}
+#freecssfooter div#fcssholder div:first-child a{float:none;margin:0 auto;}
+</style><script type="text/javascript" async="" src="./cofffmain_files/js"></script><script async="" src="./cofffmain_files/analytics.js.download"></script><script type="text/javascript" async="" src="./cofffmain_files/bsa.js.download"></script><script type="text/javascript" id="_bsap_js_b893e54e42ad5b76e7b252f59be18e67" src="./cofffmain_files/s_b893e54e42ad5b76e7b252f59be18e67.js.download" async="async"></script><script type="text/javascript" src="./cofffmain_files/pro.js.download" id="_bsap_premium_pro"></script><script type="text/javascript" id="_bsaPRO_js" src="./cofffmain_files/saved_resource" async="async"></script></head>
+<body>
+<script type="text/javascript">
+(function(){
+  var bsa = document.createElement('script');
+     bsa.type = 'text/javascript';
+     bsa.async = true;
+     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script>
+<div class="header_section">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="logo"><a href="https://www.free-css.com/free-css-templates"><img src="./cofffmain_files/logo.png" alt="website template image"></a></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a class="nav-link" href="https://www.free-css.com/free-css-templates">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.free-css.com/assets/files/free-css-templates/preview/page292/grandcoffee/pages/about.php">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.free-css.com/assets/files/free-css-templates/preview/page292/grandcoffee/pages/gallery.php">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.free-css.com/assets/files/free-css-templates/preview/page292/grandcoffee/pages/services.php">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.free-css.com/assets/files/free-css-templates/preview/page292/grandcoffee/pages/contact.php">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.free-css.com/free-css-templates"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+<div class="banner_section layout_padding">
+  <div class="container">
+    <div id="main_slider" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="banner_taital">
+                <h1 class="outstanding_text">Outstanding</h1>
+                <h1 class="coffee_text">Coffee Shop</h1>
+                <p class="there_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                <div class="learnmore_bt"><a href="https://www.free-css.com/free-css-templates">Learn More</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="banner_taital">
+                <h1 class="outstanding_text">Outstanding</h1>
+                <h1 class="coffee_text">Coffee Shop</h1>
+                <p class="there_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                <div class="learnmore_bt"><a href="https://www.free-css.com/free-css-templates">Learn More</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="banner_taital">
+                <h1 class="outstanding_text">Outstanding</h1>
+                <h1 class="coffee_text">Coffee Shop</h1>
+                <p class="there_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                <div class="learnmore_bt"><a href="https://www.free-css.com/free-css-templates">Learn More</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="https://www.free-css.com/assets/files/free-css-templates/preview/page292/grandcoffee/#main_slider" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a> <a class="carousel-control-next" href="https://www.free-css.com/assets/files/free-css-templates/preview/page292/grandcoffee/#main_slider" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a></div>
+  </div>
+</div>
+<div class="about_section layout_padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="about_taital_main">
+          <div class="about_taital">About Us</div>
+          <p class="about_text">Full cleaning and housekeeping services for companies and households.</p>
+          <p class="about_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.Lorem Ipsum is simply</p>
+          <div class="read_bt"><a href="https://www.free-css.com/free-css-templates">Read More</a></div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="about_img"><img src="./cofffmain_files/about-img.png" alt="website template image"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="gallery_section layout_padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="gallery_taital">Our Gallery</h1>
+        <p class="gallery_text">Lorem Ipsum is simply dummy text of printing typesetting ststry lorem Ipsum the industry'ndard dummy text ever since of the 1500s, when an unknown printer took a galley of type and scra make a type specimen book. It has</p>
+      </div>
+    </div>
+    <div>
+      <div class="gallery_section_2">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="container_main"><img src="./cofffmain_files/img-1.png" alt="website template image" class="image">
+              <div class="overlay">
+                <div class="text"><a href="https://www.free-css.com/free-css-templates"><i class="fa fa-search" aria-hidden="true"></i></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="container_main"><img src="./cofffmain_files/img-2.png" alt="website template image" class="image">
+              <div class="overlay">
+                <div class="text"><a href="https://www.free-css.com/free-css-templates"><i class="fa fa-search" aria-hidden="true"></i></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="container_main"><img src="./cofffmain_files/img-3.png" alt="website template image" class="image">
+              <div class="overlay">
+                <div class="text"><a href="https://www.free-css.com/free-css-templates"><i class="fa fa-search" aria-hidden="true"></i></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_section_2">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="container_main"><img src="./cofffmain_files/img-4.png" alt="website template image" class="image">
+              <div class="overlay">
+                <div class="text"><a href="https://www.free-css.com/free-css-templates"><i class="fa fa-search" aria-hidden="true"></i></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="container_main"><img src="./cofffmain_files/img-5.png" alt="website template image" class="image">
+              <div class="overlay">
+                <div class="overlay">
+                  <div class="text"><a href="https://www.free-css.com/free-css-templates"><i class="fa fa-search" aria-hidden="true"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="container_main"><img src="./cofffmain_files/img-6.png" alt="website template image" class="image">
+              <div class="overlay">
+                <div class="overlay">
+                  <div class="text"><a href="https://www.free-css.com/free-css-templates"><i class="fa fa-search" aria-hidden="true"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_section_2">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="container_main"><img src="./cofffmain_files/img-7.png" alt="website template image" class="image">
+              <div class="overlay">
+                <div class="text"><a href="https://www.free-css.com/free-css-templates"><i class="fa fa-search" aria-hidden="true"></i></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="container_main"><img src="./cofffmain_files/img-8.png" alt="website template image" class="image">
+              <div class="overlay">
+                <div class="text"><a href="https://www.free-css.com/free-css-templates"><i class="fa fa-search" aria-hidden="true"></i></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="container_main"><img src="./cofffmain_files/img-9.png" alt="website template image" class="image">
+              <div class="overlay">
+                <div class="text"><a href="https://www.free-css.com/free-css-templates"><i class="fa fa-search" aria-hidden="true"></i></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="seemore_bt"><a href="https://www.free-css.com/free-css-templates">See More</a></div>
+  </div>
+</div>
+<div class="services_section layout_padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="services_taital">Services</h1>
+        <p class="services_text">Typesetting industry lorem Ipsum is simply dummy text of the</p>
+      </div>
+    </div>
+    <div class="services_section_2">
+      <div class="row">
+        <div class="col-lg-4 col-sm-12 col-md-4">
+          <div class="box_main active">
+            <div class="house_icon"><img src="./cofffmain_files/icon1.png" alt="website template image" class="image_1"><img src="./cofffmain_files/icon1.png" alt="website template image" class="image_2"></div>
+            <h3 class="decorate_text">Original Coffee</h3>
+            <p class="tation_text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+            <div class="readmore_bt"><a href="https://www.free-css.com/free-css-templates">Read More</a></div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-4">
+          <div class="box_main">
+            <div class="house_icon"><img src="./cofffmain_files/icon2.png" alt="website template image" class="image_1"><img src="./cofffmain_files/icon2.png" alt="website template image" class="image_2"></div>
+            <h3 class="decorate_text">20 Coffee Flavors</h3>
+            <p class="tation_text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+            <div class="readmore_bt"><a href="https://www.free-css.com/free-css-templates">Read More</a></div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-4">
+          <div class="box_main">
+            <div class="house_icon"><img src="./cofffmain_files/icon3.png" alt="website template image" class="image_1"><img src="./cofffmain_files/icon3.png" alt="website template image" class="image_2"></div>
+            <h3 class="decorate_text">Pleasant Abient</h3>
+            <p class="tation_text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+            <div class="readmore_bt"><a href="https://www.free-css.com/free-css-templates">Read More</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="client_section layout_padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="client_taital">Testimonial</h1>
+        <p class="client_text">Eeven slightly believable. If you are going to use a passage of Lorem Ipsum, you need to</p>
+      </div>
+    </div>
+  </div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <div class="client_section_2">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="testimonial_section_2">
+                  <h4 class="client_name_text">Monila <span class="quick_icon"><img src="./cofffmain_files/quick-icon.png" alt="website template image"></span></h4>
+                  <p class="customer_text">many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All themany variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some embarrassing hidden in the middle of text. All the</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <div class="client_section_2">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="testimonial_section_2">
+                  <h4 class="client_name_text">Monila <span class="quick_icon"><img src="./cofffmain_files/quick-icon.png" alt="website template image"></span></h4>
+                  <p class="customer_text">many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All themany variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some embarrassing hidden in the middle of text. All the</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="client_section_2">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="testimonial_section_2">
+                  <h4 class="client_name_text">Monila <span class="quick_icon"><img src="./cofffmain_files/quick-icon.png" alt="website template image"></span></h4>
+                  <p class="customer_text">many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All themany variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some embarrassing hidden in the middle of text. All the</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="contact_section layout_padding">
+  <div class="container">
+    <h1 class="contact_text">Contact Us</h1>
+  </div>
+</div>
+<div class="contact_section_2 layout_padding">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 padding_0">
+        <div class="mail_section">
+          <div class="email_text">
+            <div class="form-group">
+              <input type="text" class="email-bt" placeholder="Name" name="Email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="email-bt" placeholder="Email" name="Email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="email-bt" placeholder="Phone Numbar" name="Email">
+            </div>
+            <div class="form-group">
+              <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+            </div>
+            <div class="send_btn">
+              <div type="text" class="main_bt"><a href="https://www.free-css.com/free-css-templates">SEND</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 padding_0">
+        <div class="map-responsive">
+          <iframe src="./cofffmain_files/place.html" width="600" height="508" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer_section layout_padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6">
+        <h3 class="useful_text">About</h3>
+        <p class="footer_text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u</p>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <h3 class="useful_text">Menu</h3>
+        <div class="footer_menu">
+          <ul>
+            <li><a href="https://www.free-css.com/free-css-templates">Home</a></li>
+            <li><a href="https://www.free-css.com/assets/files/free-css-templates/preview/page292/grandcoffee/pages/about.php">About Us</a></li>
+            <li><a href="https://www.free-css.com/assets/files/free-css-templates/preview/page292/grandcoffee/pages/gallery.php">Gallery</a></li>
+            <li><a href="https://www.free-css.com/assets/files/free-css-templates/preview/page292/grandcoffee/pages/services.php">Services</a></li>
+            <li><a href="https://www.free-css.com/assets/files/free-css-templates/preview/page292/grandcoffee/pages/contact.php">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <h1 class="useful_text">Useful Link</h1>
+        <p class="dummy_text">Adipiscing Elit, sed do Eiusmod Tempor incididunt</p>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <h1 class="useful_text">Contact Us</h1>
+        <div class="location_text">
+          <ul>
+            <li><a href="https://www.free-css.com/free-css-templates"><i class="fa fa-map-marker" aria-hidden="true"></i><span class="padding_left_10">Address : Loram Ipusm</span></a></li>
+            <li><a href="https://www.free-css.com/free-css-templates"><i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">Call : +01 1234567890</span></a></li>
+            <li><a href="https://www.free-css.com/free-css-templates"><i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">Email : mail@domain.com</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="copyright_section">
+  <div class="container">
+    <p class="copyright_text">2045 All Rights Reserved. By <a target="_blank" rel="nofollow noopener" href="https://html.design/">HTML Design</a></p>
+  </div>
+</div>
+<script src="./cofffmain_files/jquery.min.js.download"></script>
+<script src="./cofffmain_files/popper.min.js.download"></script>
+<script src="./cofffmain_files/bootstrap.bundle.min.js.download"></script>
+<script src="./cofffmain_files/jquery.migrate.min.js.download"></script>
+<script src="./cofffmain_files/plugin.js.download"></script>
+<script src="./cofffmain_files/jquery.mCustomScrollbar.concat.min.js.download"></script>
+<script src="./cofffmain_files/custom.js.download"></script>
+<div id="freecssfooter">
+  <div id="fcssholder">
+    <div id="bsap_2365" class="bsap bsap_2365" data-serve="CV7DP2T">
+      <style type="text/css">
+        
+          div.bsap_2365{width:100%;display:block;}div.bsap_2365 a{width:900px;}div.bsap_2365 a img{padding:0;}div.bsap_2365 a em{font-style:normal;}div.bsap_2365 a{display:block;font-size:11px;color:#888;font-family:verdana,sans-serif;margin:0 4px 10px 0;text-align:center;text-decoration:none;overflow:hidden;}
+div.bsap_2365 img{border:0;clear:right;}
+div.bsap_2365 a.adhere{color:#666;font-weight:bold;font-size:12px;border:1px solid #ccc;background:#e7e7e7;text-align:center;}
+div.bsap_2365 a.adhere:hover{border:1px solid #999;background:#ddd;color:#333;}div.bsap_2365 a{line-height:100%;}div.bsap_2365 a.adhere{width:900px;height:120px;line-height:960%;}html>body div.bsap_2365 a.adhere{width:898px;height:118px;}div.bsap_2365 img.s{height:0;width:0;}
+        
+        .bsap_2365 .ads-via { display: block; }
+        .bsap_2365 .adhere:nth-of-type(1n+1) { display: none; }
+        .bsap_2365 .adhere:nth-of-type(1) { display: block; }
+      </style>
+    <!--INLINE--><a target="_blank" rel="nofollow noopener" href="https://www.elegantthemes.com/affiliates/idevaffiliate.php?id=1687"><img src="./cofffmain_files/elegantthemes-900x120.jpg" alt=""></a>
+<script type="text/javascript" id="auto_1" class="ignoreme">if (typeof(_bsap_serving_callback) !== 'undefined') _bsap_serving_callback(524641, 'CV7DP2T', '');</script>
+      
+      <script type="text/javascript" id="auto_2" class="ignoreme"> if (typeof(BSACallback) !== 'undefined') BSACallback(2365); </script>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+var gaProperty = 'UA-120201777-1';var disableStr = 'ga-disable-' + gaProperty;if (document.cookie.indexOf(disableStr + '=true') > -1) {window[disableStr] = true;}
+function gaOptout(){document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2045 23:59:59 UTC; path=/';window[disableStr] = true;alert('Google Tracking has been deactivated');}
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-120201777-1', 'auto');ga('set', 'anonymizeIp', true);ga('send', 'pageview');
+</script>
+
+</body></html>

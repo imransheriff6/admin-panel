@@ -1,0 +1,38 @@
+ #firstparent {
+     display: grid;
+     grid-template-columns: 50% 50%;
+     height: 500px;
+     grid-gap:10px;
+
+ }
+
+ #top {
+     background-color: orangered;
+     width: 1400px;
+     height: 100px;
+ }
+
+ #innerparent {
+     background-color: aqua;
+     width: 700px;
+     height: 200px;
+
+ }
+ #lastbox{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height:300px;
+    grid-gap:10px
+ }
+ #green{
+    background-color: green;
+ }
+ #lbox1{
+    background-color: orangered;
+ }
+ #lbox2{
+    background-color: yellowgreen;
+ }
+ *{
+   background-color: black;
+ }

@@ -1,0 +1,267 @@
+#header{
+    display: grid;
+    grid-template-columns: 65% 20% 15%;
+    background-color: #1c3961;
+    height:40px;
+    padding-top: 20px;
+    width:100%;
+}
+.icon1{
+    color:white;
+    padding-left: 30px;
+    text-decoration: none;
+
+
+}
+.icon2{
+    color:white;
+
+}
+.icon3{
+    color:white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.icon4{
+    color:white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#topbutton{
+    display: flex;
+    height: 70px;
+   /* position: sticky;
+    top:0;*/
+    background-color: white;
+
+}
+.lo{
+    width:50%;
+    padding-top: 10px;
+    padding-left: 50px;
+
+}
+#button{
+    width:50%;
+    padding-top: 20px;
+
+   
+}
+.buttons{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color:black;
+
+}
+#main{
+    background-image: url(../images/mainedu.jpg);
+    height:400px;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    width: 100%;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+.popular{
+    text-align: center;
+}
+#popcou{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 70px;
+    margin-right: 50px;
+
+
+}
+
+.in_popu{
+    border: 1px solid grey;
+    width:380px;
+    position: relative;
+
+}
+.in_popu1{
+    border: 1px solid grey;
+    width:380px;
+    position: relative;
+
+}
+.in_popu2{
+    border: 1px solid grey;
+    width:380px;
+    position: relative;
+
+}
+.in_popu img{
+    width:100%;
+}
+.in_popu1 img{
+    width:100%;
+}
+.in_popu2 img{
+    width:100%;
+}
+.learn_bt{
+    width:280px;
+    height:60px;
+    margin-left: 40px;
+    position:absolute;
+    left:3%;
+    top:48%;
+    background-color: #009450;
+    color:white;
+    border:1px solid #009450;
+    font-family: sans-serif;
+    font-size: 15px;
+
+    
+}
+.learn_bt1{
+    width:280px;
+    height:60px;
+    margin-left: 40px;
+    position:absolute;
+    left:3%;
+    top:48%;
+    background-color: #009450;
+    color:white;
+    border:1px solid #009450;
+    font-family: sans-serif;
+    font-size: 15px;
+
+
+
+}
+.learn_bt2{
+    width:280px;
+    height:60px;
+    margin-left: 40px;
+    position:absolute;
+    left:3%;
+    top:48%;
+    background-color: #009450;
+    border:1px solid #009450;
+    color:white;
+    font-family: sans-serif;
+    font-size: 15px;
+
+
+}
+
+.pop_txt{
+    padding-left: 10px;
+    margin-top: 20px;
+
+}
+#whyus{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    height: 500px;
+    background-color:#2e3192;
+    font-family: sans-serif;
+    color:white;
+    padding: 20px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top:20px;
+}
+.frst{
+    width:40%;
+    font-size: 17px;
+    padding-top:  20px;
+}
+.two{
+    width:60%;
+    padding-top:  20px;
+    justify-content: center;
+
+}
+#list{
+    list-style: none;
+    padding-left: 15px;
+}
+li{
+    margin:70px
+}
+.two p{
+    font-size: 17px;
+    font-family: 'Raleway',sans-serif   ;
+    font-weight: 300;
+    padding-left: 10px;
+}
+.read_button{
+    width:160px;
+    height:60px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border:1px dotted white;
+    background-color: #2e3192;
+    color:white;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+#gallery img{
+    width:332px;
+    height: 200px;
+}
+.ga{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: sans-serif;
+}
+#up_container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 70px;
+
+}
+#confrst{
+    width: 48.7179%;
+    position: relative;
+
+
+
+}
+#contwo{
+    width: 300px;
+    width:30%;
+    position: relative;
+
+
+
+}
+
+.inner1{
+    border:2px solid white;
+    width:300px;
+    background-color: white;
+    position: absolute;
+    top:40px;
+    left:200px;
+    box-shadow:  1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+}
+ 
+
+.inner2{
+    border:1px solid white;
+    width:300px;
+    background-color: white;
+    position: absolute;
+    top:40px;
+    left:200px;
+    box-shadow:  1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+
+
+
+}

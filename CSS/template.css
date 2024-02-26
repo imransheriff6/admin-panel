@@ -1,0 +1,75 @@
+
+#main{
+    display:grid;
+    grid-template-columns: 60% 40%;
+    background-color: rgba(255, 196, 0, 0.87);
+}
+#list{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.centerbu{
+    text-align:center;
+    height: 50px;
+    width: 180px;
+}   
+button{
+    color:white;
+    background-color: black;
+}
+h2{
+    text-align: center;
+}
+#secparent{
+    display:grid;
+    grid-template-columns:  23% 23% 23% 23%;
+    height: 500px;
+    grid-gap :5px;
+    background-color: rgba(218, 235, 235, 0.849);
+    justify-content: space-evenly;
+}
+.innerbox{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    background-color: white;
+}
+#home_repairbox{
+ display: grid;   
+ grid-template-columns: 30% 30% 30%;
+ grid-gap: 10px;
+ justify-content: space-evenly;
+ background-color: papayawhip;
+
+}
+.repair{ 
+    width: 380px;  
+    height: 400px;
+    background-color: white;
+    text-align: center;
+}
+.repair img{
+    width: 300px;
+    height:200px
+}
+#lastbox{
+    display: grid;   
+    grid-template-columns: 30% 30% 30%;
+    height: 500px;
+    background-color: black;
+    color:white;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.last img{
+    height: 200px;
+    width:100px;
+
+}
+button{
+background-color: rgba(255, 230, 0, 0.712);
+height: 50px;
+width:100px;
+}

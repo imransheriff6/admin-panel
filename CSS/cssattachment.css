@@ -1,0 +1,11 @@
+p{
+    color:blueviolet;
+    background-color:wheat;
+    border : 2px solid violet;
+    border-radius: 6px;
+}
+h3{
+    border : 5px dotted chocolate;
+    border-radius:6px  ;
+
+}

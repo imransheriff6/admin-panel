@@ -1,0 +1,131 @@
+#login_main{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.perfect{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); !important
+    text-align: center;
+    height:590px;
+    justify-content: center;
+
+}
+.welcome{
+    padding-top: 190px;
+    padding-left: 140px;
+    padding-right: 130px;
+    
+}
+.welcome h3{
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 5px;
+    font-size: 24px;
+    color: grey;
+    opacity: .6 ;
+    margin: 0px;
+}
+.welcome p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: black;
+    font-weight: 300;
+
+}
+.sign{
+    margin-top: 3px;
+}
+.in_p{
+    font-size: 16px;
+}
+input{
+    font-weight:200;
+    padding: 10px;
+    font-size: 14px;
+    color:grey;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #ced4da;
+    outline: #17a2b8;
+    border-radius: 4px;
+
+
+}
+.input:focus{
+    border-color: #17a2b8;
+}
+.perfect h3{
+    padding-top: 150px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 30px;
+    font-weight: 300;
+
+}
+.checkbox{
+    border: 1px solid #ced4da;
+
+
+}
+span{
+    font-size: 14px;
+    color:black;
+}
+.perfect p{
+    text-align: center;
+    margin-left: 100px;
+    margin-right:100px;
+    color: #e9e9e9c2;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+.welcome a{
+    text-decoration: none;
+    color:#3f6ad8 ;
+}
+.welcome a:hover{
+    text-decoration: underline;
+}
+.divider{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    height: 1px;
+    background: #e9ecef;
+}
+.form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.recover{
+    padding-left: 300px;
+    font-family: "Roboto", sans-serif;
+
+    padding-top: 10px;
+}
+.recover a{
+    font-size: 14px;
+    font-weight: 400;
+}
+button{
+    padding: 10px;
+    color:white;
+    background-color: #3f6ad8;
+    border:none;
+    border-radius: 4px;
+    margin-left: 10px;
+
+
+}
+.recover a{
+    font-size: 14px;
+}
+button:hover{
+    background-color:#6610f2;
+
+}
+
